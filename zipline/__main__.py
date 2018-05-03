@@ -257,6 +257,7 @@ def run(ctx,
         metrics_set=metrics_set,
         local_namespace=local_namespace,
         environ=os.environ,
+        emission_rate='day',
     )
 
     if output == '-':

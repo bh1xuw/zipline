@@ -1477,7 +1477,8 @@ class TradingAlgorithm(object):
 
         E.g. 3.9999 -> 4.0; 5.5 -> 5.0; -5.5 -> -5.0
         """
-        return int(round_if_near_integer(amount))
+        # return int(round_if_near_integer(amount))
+        return amount
 
     def validate_order_params(self,
                               asset,
